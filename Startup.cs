@@ -8,10 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using felipe_santos_volvoapp.Options;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
-using felipe_santos_volvoapp.Authorization;
 using System.Reflection;
 using System.IO;
 
