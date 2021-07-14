@@ -7,13 +7,14 @@ using felipe_santos_volvoapp.Models;
 
 namespace felipe_santos_volvoapp.Data
 {
-    public class appContext : DbContext
+    public class FelipeAppContext : DbContext
     {
-        public appContext(DbContextOptions<appContext> options)
+        public FelipeAppContext(DbContextOptions<FelipeAppContext> options)
             : base(options)
         {
         }
 
         public DbSet<felipe_santos_volvoapp.Models.Caminhao> Caminhao { get; set; }
+
     }
 }

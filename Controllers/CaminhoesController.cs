@@ -10,25 +10,25 @@ using felipe_santos_volvoapp.Models;
 
 namespace felipe_santos_volvoapp.Controllers
 {
-    public class CaminhaosController : Controller
+    public class CaminhoesController : Controller
     {
-        private readonly appContext _context;
+        private readonly FelipeAppContext _context;
 
-        public CaminhaosController(appContext context)
+        public CaminhoesController(FelipeAppContext context)
         {
             _context = context;
         }
 
-        // GET: Caminhaos
+        // GET: Caminhoes
         public async Task<IActionResult> Index()
         {
             return View(await _context.Caminhao.ToListAsync());
         }
 
-        // GET: Caminhaos/Details/5
-        public async Task<IActionResult> Details(string id)
+        // GET: Caminhoes/Details/5
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null)
+            if (id <= 0)
             {
                 return NotFound();
             }
@@ -43,18 +43,18 @@ namespace felipe_santos_volvoapp.Controllers
             return View(caminhao);
         }
 
-        // GET: Caminhaos/Create
+        // GET: Caminhoes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Caminhaos/Create
+        // POST: Caminhoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Modelo,AnoFabricacao,AnoModelo")] Caminhao caminhao)
+        public async Task<IActionResult> Create([Bind("Modelo,AnoFabricacao,AnoModelo")] Caminhao caminhao)
         {
             if (ModelState.IsValid)
             {
@@ -65,10 +65,10 @@ namespace felipe_santos_volvoapp.Controllers
             return View(caminhao);
         }
 
-        // GET: Caminhaos/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        // GET: Caminhoes/Edit/5
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
+            if (id <= 0)
             {
                 return NotFound();
             }
@@ -81,12 +81,12 @@ namespace felipe_santos_volvoapp.Controllers
             return View(caminhao);
         }
 
-        // POST: Caminhaos/Edit/5
+        // POST: Caminhoes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Modelo,AnoFabricacao,AnoModelo")] Caminhao caminhao)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Modelo,AnoFabricacao,AnoModelo")] Caminhao caminhao)
         {
             if (id != caminhao.Id)
             {
@@ -102,7 +102,7 @@ namespace felipe_santos_volvoapp.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CaminhaoExists(caminhao.Id))
+                    if (!CaminhaoExists((int)caminhao.Id))
                     {
                         return NotFound();
                     }
@@ -116,10 +116,10 @@ namespace felipe_santos_volvoapp.Controllers
             return View(caminhao);
         }
 
-        // GET: Caminhaos/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        // GET: Caminhoes/Delete/5
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
+            if (id <= 0)
             {
                 return NotFound();
             }
@@ -134,10 +134,10 @@ namespace felipe_santos_volvoapp.Controllers
             return View(caminhao);
         }
 
-        // POST: Caminhaos/Delete/5
+        // POST: Caminhoes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var caminhao = await _context.Caminhao.FindAsync(id);
             _context.Caminhao.Remove(caminhao);
@@ -145,7 +145,7 @@ namespace felipe_santos_volvoapp.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CaminhaoExists(string id)
+        private bool CaminhaoExists(int id)
         {
             return _context.Caminhao.Any(e => e.Id == id);
         }

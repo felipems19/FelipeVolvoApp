@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<felipe_santos_volvoapp.Models.Caminhao>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista de Caminhões";
 }
 
-<h1>Index</h1>
+<h2>Lista de Caminhões</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Inserir novo Caminhão</a>
 </p>
 <table class="table">
     <thead>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.AnoModelo)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Atualizar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
             </td>
         </tr>
 }

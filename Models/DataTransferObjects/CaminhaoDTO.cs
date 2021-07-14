@@ -7,9 +7,9 @@ namespace felipe_santos_volvoapp.Models.DataTransferObjects
 {
     public class CaminhaoDTO
     {
-        public string Id { get; set; }
+        public int? Id { get; set; }
         public string Modelo { get; set; }
-        public DateTime AnoFabricacao { get; set; }
-        public DateTime AnoModelo { get; set; }
+        public int AnoFabricacao { get; set; }
+        public int AnoModelo { get; set; }
     }
 }

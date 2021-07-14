@@ -1,46 +1,42 @@
 ﻿@model felipe_santos_volvoapp.Models.Caminhao
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Create</h1>
+<h1>Editar</h1>
 
 <h4>Caminhao</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Modelo" class="control-label"></label>
-                <select asp-for="Modelo" class="form-control"></select>
-                <span asp-validation-for="Modelo" class="text-danger"></span>
+                <input asp-for="Modelo" class="form-control" />
+                <span lang="pt-br" asp-validation-for="Modelo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="AnoFabricacao" class="control-label"></label>
                 <input asp-for="AnoFabricacao" class="form-control" />
-                <span asp-validation-for="AnoFabricacao" class="text-danger"></span>
+                <span lang="pt-br" asp-validation-for="AnoFabricacao" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="AnoModelo" class="control-label"></label>
                 <input asp-for="AnoModelo" class="form-control" />
-                <span asp-validation-for="AnoModelo" class="text-danger"></span>
+                <span lang="pt-br" asp-validation-for="AnoModelo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar para a lista</a>
 </div>
 
 @section Scripts {

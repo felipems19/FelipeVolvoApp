@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace felipe_santos_volvoapp.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,10 +10,11 @@ namespace felipe_santos_volvoapp.Migrations
                 name: "Caminhao",
                 columns: table => new
                 {
-                    Id = table.Column<string>(nullable: false),
-                    Modelo = table.Column<int>(nullable: false),
-                    AnoFabricacao = table.Column<DateTime>(nullable: false),
-                    AnoModelo = table.Column<DateTime>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Modelo = table.Column<string>(nullable: false),
+                    AnoFabricacao = table.Column<int>(nullable: false),
+                    AnoModelo = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

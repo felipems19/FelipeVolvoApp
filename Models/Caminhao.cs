@@ -1,28 +1,38 @@
-﻿using System;
+﻿using felipe_santos_volvoapp.Models.CustomAnnotations;
+using felipe_santos_volvoapp.Models.DataTransferObjects;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace felipe_santos_volvoapp.Models
 {
-    public enum tiposModelo
+    public enum modeloOpcoes
     {
         FH,
         FM
     }
+
     public class Caminhao
     {
         [Key]
-        public string Id { get; set; }
+        public int? Id { get; set; }
         
         [Required]
-        public tiposModelo Modelo { get; set; }
+        [RegularExpression("FH|FM", ErrorMessage = "Apenas modelos FH e FM são permitidos")]
+        public string Modelo { get; set; }
         
         [Required]
-        public DateTime AnoFabricacao { get; set; }
+        [Display(Name = "Ano de fabricação")]
+        [CurrentDateValidator(ErrorMessage = "O ano de fabricação deverá ser o atual")]
+        public int AnoFabricacao { get; set; }
         
         [Required]
-        public DateTime AnoModelo { get; set; }
+        [Display(Name = "Ano do modelo")]
+        [DateRangeValidator(ErrorMessage = "O ano do modelo deverá ser o atual ou o anterior")]
+        public int AnoModelo { get; set; }
+
     }
 }
