@@ -160,3 +160,8 @@ C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Micr
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\felipe-santos-volvoapp.csproj.AssemblyReference.cache
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\Razor\Views\Caminhaos\Create.cshtml.g.cs
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\Razor\Views\Caminhaos\Delete.cshtml.g.cs
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\Razor\Views\Caminhaos\Details.cshtml.g.cs
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\Razor\Views\Caminhaos\Edit.cshtml.g.cs
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\Razor\Views\Caminhaos\Index.cshtml.g.cs

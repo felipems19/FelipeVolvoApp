@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,6 +12,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
+using felipe_santos_volvoapp.Data;
 
 
 namespace felipe_santos_volvoapp
@@ -32,6 +34,9 @@ namespace felipe_santos_volvoapp
 
             // Register the Swagger generator
             addSwagger(services);
+
+            services.AddDbContext<felipe_santos_volvoappContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("felipe_santos_volvoappContext")));
 
 
         }
@@ -84,7 +89,7 @@ namespace felipe_santos_volvoapp
                 {
                     Version = "v1",
                     Title = "Felipe Santos - VolvoApp",
-                    Description = "Realizar operações com caminhões",
+                    Description = "Realizar operaï¿½ï¿½es com caminhï¿½es",
                     Contact = new OpenApiContact
                     {
                         Name = "Felipe Marques Santos",
