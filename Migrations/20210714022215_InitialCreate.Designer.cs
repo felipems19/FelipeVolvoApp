@@ -9,7 +9,7 @@ using felipe_santos_volvoapp.Data;
 
 namespace felipe_santos_volvoapp.Migrations
 {
-    [DbContext(typeof(felipe_santos_volvoappContext))]
+    [DbContext(typeof(appContext))]
     [Migration("20210714022215_InitialCreate")]
     partial class InitialCreate
     {

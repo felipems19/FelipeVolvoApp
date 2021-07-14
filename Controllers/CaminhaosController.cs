@@ -12,9 +12,9 @@ namespace felipe_santos_volvoapp.Controllers
 {
     public class CaminhaosController : Controller
     {
-        private readonly felipe_santos_volvoappContext _context;
+        private readonly appContext _context;
 
-        public CaminhaosController(felipe_santos_volvoappContext context)
+        public CaminhaosController(appContext context)
         {
             _context = context;
         }

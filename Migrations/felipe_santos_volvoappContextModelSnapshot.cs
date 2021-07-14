@@ -8,7 +8,7 @@ using felipe_santos_volvoapp.Data;
 
 namespace felipe_santos_volvoapp.Migrations
 {
-    [DbContext(typeof(felipe_santos_volvoappContext))]
+    [DbContext(typeof(appContext))]
     partial class felipe_santos_volvoappContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

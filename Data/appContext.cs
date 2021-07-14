@@ -7,9 +7,9 @@ using felipe_santos_volvoapp.Models;
 
 namespace felipe_santos_volvoapp.Data
 {
-    public class felipe_santos_volvoappContext : DbContext
+    public class appContext : DbContext
     {
-        public felipe_santos_volvoappContext (DbContextOptions<felipe_santos_volvoappContext> options)
+        public appContext(DbContextOptions<appContext> options)
             : base(options)
         {
         }

@@ -35,7 +35,7 @@ namespace felipe_santos_volvoapp
             // Register the Swagger generator
             addSwagger(services);
 
-            services.AddDbContext<felipe_santos_volvoappContext>(options =>
+            services.AddDbContext<appContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("felipe_santos_volvoappContext")));
 
 
