@@ -9,7 +9,6 @@ C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\feli
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\felipe-santos-volvoapp.xml
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\felipe-santos-volvoapp.Views.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\felipe-santos-volvoapp.Views.pdb
-C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
@@ -53,7 +52,6 @@ C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Swas
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -152,3 +150,13 @@ C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\feli
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\felipe-santos-volvoapp.xml
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\felipe-santos-volvoapp.pdb
 C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\felipe-santos-volvoapp.genruntimeconfig.cache
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\felip\Desktop\volvo\felipe-santos-volvoapp\obj\Debug\netcoreapp3.1\felipe-santos-volvoapp.csproj.AssemblyReference.cache
