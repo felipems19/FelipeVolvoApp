@@ -1,63 +1,56 @@
-﻿# Project Title
-
-Simple overview of use/purpose.
+﻿# Cadastramento Caminhões Volvo
+Projeto realizado com a finalidade de concluir uma avaliação técnica
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Essa avaliação se trata de uma aplicação em ASP.NET Core capaz de realizar cadastramento/edição/exclusão de caminhões
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+As dependências/pacotes utilizados são:
+
+    "Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.17"
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.17"
+    "Microsoft.EntityFrameworkCore" Version="3.1.17"
+    "Microsoft.EntityFrameworkCore.Design" Version="3.1.17"
+    "Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.17"
+    "Microsoft.EntityFrameworkCore.Tools" Version="3.1.17"
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5"
+    "Swashbuckle.AspNetCore" Version="6.1.4"
+    "Swashbuckle.AspNetCore.Swagger" Version="6.1.4"
+    "Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4"
+
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Checar funcionamento/existência Migration/Database
+* Na ausência de uma migration inicial, proceder com os seguintes comandos:
+```
+add-migration 'Inital'
+```
+```
+Update-Database
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Para iniciar o projeto basta abrir a solução, selecionar para executar com IIS Express local e observar a criação da base de dados
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+## Funcionamento
+
+Ao executar o projeto a primera página a ser exibida é a Homepage (de caráter informativo apenas). Logo após torna-se necessário abrir a página Caminhões, que irá basicamente listar
+os caminhões existentes e a opção de inserir novo caminhão.
+
+Logo após é possível notar os campos necessários referentes aos caminhões e suas respectivas lógicas de negócio.
+
+Volta para a página inicial é possivel observar o caminhão cadastrado e atualizar/visualizar/deletar o registro
+
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
-{"mode":"full","isActive":false}
+Felipe Marques Santos
+email: felipe.marques19@gmail.com
+Linkedin: https://www.linkedin.com/in/felipe-marques-santos-679b946b/

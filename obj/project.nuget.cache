@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RA7XWUTVEzpfqCtQifu+VfU0L7sftsyiOXohaf6ivlJT5Y9YnLnTgN7s/Wxigvw8am816wGkB6JOaQ+4pElzkQ==",
+  "dgSpecHash": "ttYxyWSd4Nq5Sh32ij9NFkmX45Rx6CayRFFnv8K2yWkhl6/305V9pc0ge37mZddM6DM/PkbilxcNCvtWmsFtwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\felip\\Desktop\\volvo\\felipe-santos-volvoapp\\felipe-santos-volvoapp.csproj",
   "expectedPackageFiles": [
@@ -27,8 +27,8 @@
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.17\\microsoft.entityframeworkcore.analyzers.3.1.17.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.17\\microsoft.entityframeworkcore.design.3.1.17.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.17\\microsoft.entityframeworkcore.relational.3.1.17.nupkg.sha512",
-    "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.15\\microsoft.entityframeworkcore.sqlserver.3.1.15.nupkg.sha512",
-    "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.15\\microsoft.entityframeworkcore.tools.3.1.15.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.17\\microsoft.entityframeworkcore.sqlserver.3.1.17.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.17\\microsoft.entityframeworkcore.tools.3.1.17.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.17\\microsoft.extensions.caching.abstractions.3.1.17.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.17\\microsoft.extensions.caching.memory.3.1.17.nupkg.sha512",
