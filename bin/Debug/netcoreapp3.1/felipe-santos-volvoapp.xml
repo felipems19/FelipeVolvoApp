@@ -4,5 +4,14 @@
         <name>felipe-santos-volvoapp</name>
     </assembly>
     <members>
+        <member name="M:felipe_santos_volvoapp.Controllers.CSController.GetCaminhoes">
+            <summary>
+             Get All Messages
+            </summary>
+            <remarks>
+             GetCaminhoes te permitirá visualizar
+             caminhões cadastrados
+            </remarks>
+        </member>
     </members>
 </doc>

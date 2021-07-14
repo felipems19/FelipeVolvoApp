@@ -3,7 +3,9 @@ Projeto realizado com a finalidade de concluir uma avaliação técnica emitida 
 
 ## Description
 
-Essa avaliação se trata de uma aplicação em ASP.NET Core capaz de realizar cadastramento/edição/exclusão de caminhões
+Essa avaliação se trata de uma aplicação em ASP.NET Core (MVC) capaz de realizar cadastramento/edição/exclusão de caminhões
+
+* OBS: Além das atribuições do MVC (página web onde poderá se testar a app), existe também um swagger adicionado em https://localhost:44330/swagger/index.html
 
 ## Getting Started
 
@@ -53,7 +55,7 @@ Logo após é possível notar os campos necessários referentes aos caminhões e
 Volta para a página inicial é possivel observar o caminhão cadastrado e atualizar/visualizar/deletar o registro
 
 
-## Authors
+## Author
 
 Felipe Marques Santos
 
