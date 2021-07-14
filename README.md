@@ -1,5 +1,5 @@
 ﻿# Cadastramento Caminhões Volvo
-Projeto realizado com a finalidade de concluir uma avaliação técnica
+Projeto realizado com a finalidade de concluir uma avaliação técnica emitida para Felipe Marques Santos
 
 ## Description
 
@@ -26,13 +26,17 @@ As dependências/pacotes utilizados são:
 ### Installing
 
 * Checar funcionamento/existência Migration/Database
-* Na ausência de uma migration inicial, proceder com os seguintes comandos:
-```
-add-migration 'Inital'
-```
+* Inicialmente é preciso criar o database com base na migration já existente. Portanto é preciso rodar o seguinte código:
+
 ```
 Update-Database
 ```
+* Na existência de algum problema na migration, o comando utilizado é o seguinte:
+
+```
+add-migration 'Inital'
+```
+
 
 ### Executing program
 
@@ -52,5 +56,7 @@ Volta para a página inicial é possivel observar o caminhão cadastrado e atual
 ## Authors
 
 Felipe Marques Santos
-email: felipe.marques19@gmail.com
+
+Email: felipe.marques19@gmail.com
+
 Linkedin: https://www.linkedin.com/in/felipe-marques-santos-679b946b/
