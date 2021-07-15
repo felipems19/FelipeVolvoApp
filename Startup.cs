@@ -14,7 +14,7 @@ using System.Reflection;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using felipe_santos_volvoapp.Data;
-
+using felipe_santos_volvoapp.Repository;
 
 namespace felipe_santos_volvoapp
 {
@@ -39,6 +39,7 @@ namespace felipe_santos_volvoapp
                     options.UseSqlServer(Configuration.GetConnectionString("FelipeAppContext")));
 
 
+            services.AddScoped<ICaminhaoRepository, CaminhaoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
